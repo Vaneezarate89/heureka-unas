@@ -236,6 +236,8 @@ flex-wrap: wrap;
     padding: 5px;
     color:whitesmoke;
     border-radius: 4px;
+    transition-property: padding;
+    transition-duration: 1s;
 }
 
 .opc1{
@@ -254,6 +256,11 @@ flex-wrap: wrap;
     background-color: rgba(255, 123, 180, 0.696);
     }
 
+    .boton:hover{
+        background-color: rgb(232, 69, 224);
+        color: black;
+        padding: 2%;
+    }
 
 /*-------TRABAJOS-------*/
 
