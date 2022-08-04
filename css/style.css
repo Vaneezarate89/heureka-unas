@@ -388,7 +388,7 @@ flex-wrap: wrap;
     margin: 30px;
 } 
 
-.formulario div form{
+.formu{
     width: 300px;
     margin: auto;
     background:rgba(233, 150, 122, 0.578);
@@ -397,7 +397,9 @@ flex-wrap: wrap;
     margin-top: 20px;
     border-radius: 7px;
     color: rgb(82, 5, 82);
+    text-align: center;
 }
+
 
 .formulario h2{
     text-align: center;
@@ -405,28 +407,13 @@ flex-wrap: wrap;
     margin: 0;
 }
 
-.relleno input, textarea{
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 7px;
-    box-sizing: border-box;
-    font-size: 17px;
-    border: none;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-textarea{
-    min-height: 100px;
-    max-height: 200px;
-    max-width: 100%;
-}
-
 #boton{
-    background: #ec48a8e7;
+    background: #6e48ece7;
     color: #fff;
-    padding: 20px;
+    padding: 10px;
+    font-size: 15px;
     border-radius: 4px;
-    align-items: center;
+    text-align: center;
 }
 
 .mapa{
