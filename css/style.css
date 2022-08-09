@@ -209,6 +209,10 @@ flex-wrap: wrap;
     font-size: 21px;
 }
 
+.opciones div div:hover{
+    color: black;
+}
+
 .opciones img{
     width: 250px;
     height: 250px;
@@ -222,36 +226,55 @@ flex-wrap: wrap;
     padding: 0 40px 0 0;
 }
 
-.opciones div div ul a{
+.botons{
+    border: 3px solid rgba(100,100,100,0.1);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100px;
+    font: size 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 300%;
     text-decoration: none;
-    background-color: #8d32afe7;
-    padding: 5px;
-    color:whitesmoke;
-    border-radius: 4px;
-    transition-property: padding;
-    transition-duration: 1s;
+    background-image: linear-gradient(to left, #A950A1, #b42152, #A950A1);  
+    transition: 0.6s;
+}
+
+.botons:hover{
+    background-position: right;
+    color:black
 }
 
 .opc1{
     background-color: rgba(206, 148, 251, 0.79);
     }
 
+.opc1:hover{
+    background-color: rgb(206, 148, 251);
+}
+
 .opc2{
     background-color:rgba(245, 172, 136, 0.79);
     }
+
+.opc2:hover{
+    background-color:rgb(245, 172, 136);
+}
 
 .opc3{
     background-color:  rgba(143, 217, 249, 0.79);
     }
 
+.opc3:hover{
+    background-color:  rgb(143, 217, 249);
+}
 .opc4{
     background-color: rgba(255, 123, 180, 0.696);
     }
 
-    .boton:hover{
-        background-color: rgb(232, 69, 224);
-        color: black;
-        padding: 2%;
+.opc4:hover{
+    background-color: rgb(255, 123, 180);
     }
 
 /*-------TRABAJOS-------*/
@@ -416,20 +439,25 @@ flex-wrap: wrap;
     text-align: center;
 }
 
-
 .formulario h2{
     text-align: center;
     font-size: 25px;
     margin: 0;
 }
 
-#boton{
-    background: #6e48ece7;
-    color: #fff;
+#enviar{
+    border: 3px solid rgba(100,100,100,0.1);
+    margin-bottom: 20px;
     padding: 10px;
-    font-size: 15px;
-    border-radius: 4px;
-    text-align: center;
+    width: 100px;
+    font: size 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 300%;
+    text-decoration: none;
+    background-image: linear-gradient(to left, #A950A1, #b42152, #A950A1);  
+    transition: 0.6s;
 }
 
 .mapa{
