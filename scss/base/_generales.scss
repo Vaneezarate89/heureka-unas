@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lemonada:wght@300&family=Linden+Hill:ital@0;1&family=Merienda&family=Merienda+One&family=Oooh+Baby&family=Pacifico&family=Rubik+Moonrocks&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Linden Hill', serif;
+    background-image: url("../img/estrella.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+    color:rgb(99, 99, 99);
+    font-size: 20px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.sublogo{
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+}

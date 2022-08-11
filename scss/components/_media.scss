@@ -1,0 +1,39 @@
+/*-------INDEX----------*/
+@media screen and (max-width:675px) {
+main{
+    .hero{ 
+    background-image:none;
+    height: auto;
+    width: auto;
+    margin: 40px;
+    }
+}
+}
+@media screen and (max-width:980px) {
+main{
+    .nav-link{
+        text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+main{
+    .presentacion{
+        flex-direction: column;
+        align-items: center;
+        }
+        .presentacion div{
+            width:95%;
+            margin:20px;
+        }
+    }
+}
+
+@media screen and (max-width:400px) {
+main{
+    .presentacion img{
+            max-width: 100%;
+    }
+    }
+}
