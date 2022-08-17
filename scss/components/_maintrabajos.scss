@@ -1,0 +1,58 @@
+main{
+    .heroclientas{
+        width: 100%;
+        height: 70vh;
+        background-image: url("../img/clientas.jpg");
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        color:white;
+        display: flex;
+        justify-content: right;
+        align-items:flex-start;
+        h1{
+            font-size: 50px;
+            font-weight: 400px;
+            font-style: italic;
+            font-family:'Times New Roman', Times, serif;
+            letter-spacing: 10px;
+            text-align: right;
+            margin: 25px;
+        }
+    }
+    .clientas{
+        h2{
+            margin: 40px;
+            font-size: 50px;
+            text-align: center;
+        }
+    }
+    .grid-galeria{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-auto-rows: 350px;
+        gap: 15px;
+        div{
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.2);
+                -webkit-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.2);
+                -moz-box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.2);
+            }
+        }
+    }
+    .img-3{
+        grid-row: span 2;
+    }
+    .img-4{
+        grid-column: span 2;
+    }
+        .img-12{
+        grid-column: span 2;
+    }
+}
