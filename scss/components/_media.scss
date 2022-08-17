@@ -1,14 +1,25 @@
-/*-------INDEX----------*/
+/*-------MQ MAIN DE TODOS LOS DOCUS--------*/
 @media screen and (max-width:675px) {
 main{
     .hero{ 
-    background-image:none;
-    height: auto;
-    width: auto;
-    margin: 40px;
+        background-image:none;
+        height: auto;
+        width: auto;
+        margin: 40px;
+        text-align: center;
+    }
+    .heroservicios{
+        background-image:none;
+        height: auto;
+        width: auto;
+        margin: 40px;
+        color: $color-titulos;
+        text-align: center;
     }
 }
 }
+
+/*----------INDEX----------*/
 @media screen and (max-width:980px) {
 main{
     .nav-link{
@@ -33,7 +44,35 @@ main{
 @media screen and (max-width:400px) {
 main{
     .presentacion img{
-            max-width: 100%;
+        max-width: 100%;
     }
+}
+}
+
+/*----------SERVICIOS------------*/
+@media screen and (max-width:815px) {
+main{
+    .heroservicios{
+        p{
+            font-size: 20px;
+            text-align: center;
+        }
     }
+    .opciones div div{
+        text-align:justify;
+        text-align: center;
+        border-radius: 15px;
+        margin: 20px;
+        flex-direction: column;
+        align-items:center;
+        font-size: 15px;
+        ul{
+            width: 80%;
+        }
+        img{
+            width: 50%;
+            height: 50%;
+        }
+    }
+}
 }

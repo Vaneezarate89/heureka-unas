@@ -29,6 +29,7 @@ header .nav-link {
   font-size: 20px;
   color: white; }
 
+/*-----------MAIN INDEX--------*/
 main .hero {
   width: 100%;
   height: 70vh;
@@ -101,6 +102,99 @@ main .informacion {
   text-align: center;
   margin: 25px; }
 
+/*----------MAIN SERVICIOS-----------*/
+main .heroservicios {
+  width: 100%;
+  height: 70vh;
+  background-image: url("../img/servicios.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: flex-start; }
+  main .heroservicios div {
+    width: 100%; }
+  main .heroservicios h1 {
+    font-size: 50px;
+    font-weight: 400px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    text-align: right;
+    margin: 25px; }
+  main .heroservicios p {
+    text-align: right;
+    font-size: 30px;
+    margin: 25px;
+    font-family: 'Times New Roman', Times, italic; }
+
+main .opciones div {
+  text-align: right;
+  font-size: 30px;
+  margin: 25px;
+  font-family: 'Times New Roman', Times, italic; }
+  main .opciones div div {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    border-radius: 15px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    line-height: 50px;
+    font-size: 21px; }
+    main .opciones div div:hover {
+      color: black; }
+    main .opciones div div img {
+      width: 250px;
+      height: 250px;
+      margin: 10px;
+      border-radius: 50%; }
+    main .opciones div div h2 {
+      text-align: center;
+      margin: auto;
+      padding: 0 40px 0 0; }
+
+main .botons {
+  border: 3px solid rgba(100, 100, 100, 0.1);
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100px;
+  font: size 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-size: 300%;
+  text-decoration: none;
+  background-image: linear-gradient(to left, #A950A1, #b42152, #A950A1);
+  transition: 0.6s; }
+  main .botons:hover {
+    background-position: right;
+    color: black; }
+
+main .opc1 {
+  background-color: rgba(206, 148, 251, 0.79); }
+  main .opc1:hover {
+    background-color: #ce94fb; }
+
+main .opc2 {
+  background-color: rgba(245, 172, 136, 0.79); }
+  main .opc2:hover {
+    background-color: #f5ac88; }
+
+main .opc3 {
+  background-color: rgba(143, 217, 249, 0.79); }
+  main .opc3:hover {
+    background-color: #8fd9f9; }
+
+main .opc4 {
+  background-color: rgba(255, 123, 180, 0.696); }
+  main .opc4:hover {
+    background-color: #ff7bb4; }
+
 footer {
   background-image: linear-gradient(to left, #ffc1af, #ee8ffb);
   display: flex;
@@ -111,14 +205,23 @@ footer {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic; }
 
-/*-------INDEX----------*/
+/*-------MQ MAIN DE TODOS LOS DOCUS--------*/
 @media screen and (max-width: 675px) {
   main .hero {
     background-image: none;
     height: auto;
     width: auto;
-    margin: 40px; } }
+    margin: 40px;
+    text-align: center; }
+  main .heroservicios {
+    background-image: none;
+    height: auto;
+    width: auto;
+    margin: 40px;
+    color: rgba(149, 15, 86, 0.762);
+    text-align: center; } }
 
+/*----------INDEX----------*/
 @media screen and (max-width: 980px) {
   main .nav-link {
     text-align: center; } }
@@ -134,3 +237,22 @@ footer {
 @media screen and (max-width: 400px) {
   main .presentacion img {
     max-width: 100%; } }
+
+/*----------SERVICIOS------------*/
+@media screen and (max-width: 815px) {
+  main .heroservicios p {
+    font-size: 20px;
+    text-align: center; }
+  main .opciones div div {
+    text-align: justify;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px; }
+    main .opciones div div ul {
+      width: 80%; }
+    main .opciones div div img {
+      width: 50%;
+      height: 50%; } }
