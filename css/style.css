@@ -244,6 +244,46 @@ main .img-4 {
 main .img-12 {
   grid-column: span 2; }
 
+main .heroacercade {
+  width: 100%;
+  height: 70vh;
+  background-image: url("../img/acerdademi1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  display: flex;
+  justify-content: right;
+  align-items: flex-start; }
+  main .heroacercade h1 {
+    margin: 25px;
+    font-size: 50px;
+    font-weight: 400px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 10px;
+    text-align: right; }
+
+main .acercade {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: center; }
+  main .acercade div {
+    width: 30%;
+    border-radius: 50%; }
+    main .acercade div img {
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 10px solid rgba(216, 112, 147, 0.908); }
+  main .acercade h2 {
+    font-size: 50px; }
+
+main .sobremi p {
+  margin: 35px;
+  text-align: justify; }
+
 footer {
   background-image: linear-gradient(to left, #ffc1af, #ee8ffb);
   display: flex;
@@ -254,7 +294,7 @@ footer {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic; }
 
-/*-------MQ MAIN DE TODOS LOS DOCUMENTOS--------*/
+/*-------MQ IMAGEN PRINCIPAL DE TODOS LOS DOCUMENTOS--------*/
 @media screen and (max-width: 675px) {
   main .hero {
     background-image: none;
@@ -280,7 +320,15 @@ footer {
     justify-content: center;
     margin: 0px; }
   main .clientas h2 {
-    font-size: 25px; } }
+    font-size: 25px; }
+  main .heroacercade {
+    background-image: none;
+    height: auto;
+    width: auto;
+    color: rgba(149, 15, 86, 0.762);
+    margin: 20px;
+    justify-content: center;
+    margin: 0px; } }
 
 /*----------INDEX----------*/
 @media screen and (max-width: 980px) {
@@ -337,3 +385,16 @@ footer {
   main .grid-galeria {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px; } }
+
+/*------------ACERCA DE-------------*/
+@media screen and (max-width: 880px) {
+  main .acercade {
+    flex-direction: column;
+    margin: 20px;
+    align-items: center; }
+    main .acercade div img {
+      width: 100%;
+      height: 100%; }
+    main .acercade h2 {
+      font-size: 25px;
+      margin: 20px; } }
