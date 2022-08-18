@@ -1,0 +1,18 @@
+//*EXTEND
+%imgprincipal{
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:white;
+}
+
+//*MIXIN
+@mixin flex($flex, $justify, $aling){
+display: $flex;
+justify-content: $justify;
+align-items: $aling;
+}
+
+

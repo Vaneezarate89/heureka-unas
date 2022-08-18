@@ -22,6 +22,14 @@ body {
   width: 40px;
   height: 40px; }
 
+main .heroservicios, main .contacto {
+  width: 100%;
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white; }
+
 header nav {
   background-image: linear-gradient(to right, #ffc1af, #ee8ffb); }
 
@@ -103,13 +111,7 @@ main .informacion {
   margin: 25px; }
 
 main .heroservicios {
-  width: 100%;
-  height: 70vh;
   background-image: url("../img/servicios.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
   display: flex;
   justify-content: right;
   align-items: flex-start; }
@@ -159,10 +161,10 @@ main .opciones div {
 
 main .botons {
   border: 3px solid rgba(100, 100, 100, 0.1);
+  font-size: 16px;
   margin-bottom: 20px;
   padding: 10px;
   width: 100px;
-  font: size 16px;
   border-radius: 8px;
   cursor: pointer;
   color: #fff;
@@ -285,13 +287,7 @@ main .sobremi p {
   text-align: justify; }
 
 main .contacto {
-  width: 100%;
-  height: 70vh;
   background-image: url("../img/contacto.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  color: white;
   display: flex;
   justify-content: right;
   align-items: flex-start; }
