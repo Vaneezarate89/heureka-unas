@@ -167,7 +167,7 @@ main{
 
 /*-------------CONTACTO---------*/
 
-@media screen and (max-width:820px){
+@media screen and (max-width:980px){
 main{
     .formulario{
         flex-direction: column;
@@ -178,7 +178,7 @@ main{
 @media screen and (max-width:480px){
 main{
     .formulario{ 
-        div{
+        .formu{
             width: 100%;
         }
         .mapa{
